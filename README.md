@@ -7,7 +7,7 @@ Comparative load testing of five game server control panels: **GameAP 4.x**, **P
 ### Max throughput (RPS, 0% errors)
 
 | Panel | Stack | RPS |
-|---|---|---|---|
+|---|---|---|
 | **GameAP 4.x** | Go + PostgreSQL | **1126** |
 | **PufferPanel** | Go + PostgreSQL | **696** |
 | **GameAP 3.x** | PHP + MySQL + Redis | **394** |
