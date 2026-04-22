@@ -1,0 +1,37 @@
+process_names:
+  - name: "gameap-daemon"
+    cmdline:
+    - "gameap-daemon"
+  - name: "gameap"
+    comm:
+    - "gameap"
+  - name: "pufferpanel"
+    comm:
+    - "pufferpanel"
+  - name: "php-fpm"
+    cmdline:
+    - "php-fpm"
+  - name: "postgresql"
+    cmdline:
+    - "postgres"
+  - name: "{{.Comm}}"
+    comm:
+    - "nginx"
+    - "mysqld"
+    - "redis-server"
+    - "dockerd"
+    - "containerd"
+    - "chronyd"
+  - name: "wings"
+    cmdline:
+    - "wings"
+  - name: "{{.Comm}}"
+    comm:
+    - "systemd"
+    - "sshd"
+    - "node_exporter"
+    - "process-exporter"
+    - "qemu-ga"
+  - name: "other"
+    cmdline:
+    - ".+"

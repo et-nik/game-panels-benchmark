@@ -1,0 +1,7 @@
+metric,value
+cpu_peak_percent,96.3
+ram_peak_mb,742
+network_tx_peak_mbps,1.79
+network_rx_peak_mbps,0.47
+disk_write_iops_peak,190
+disk_read_iops_peak,43

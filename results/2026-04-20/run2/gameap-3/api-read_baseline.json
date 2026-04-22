@@ -1,0 +1,228 @@
+{
+    "metrics": {
+        "data_sent": {
+            "count": 975986,
+            "rate": 3592.4437283648085
+        },
+        "server_details_duration": {
+            "avg": 9.847300833103438,
+            "min": 7.03187,
+            "med": 8.782695,
+            "max": 26.721382,
+            "p(90)": 14.902734200000008,
+            "p(95)": 18.650403599999997
+        },
+        "http_reqs": {
+            "count": 2176,
+            "rate": 8.009497628984251
+        },
+        "http_req_connecting": {
+            "avg": 0.0007869476102941176,
+            "min": 0,
+            "med": 0,
+            "max": 0.199901,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "api_read_duration": {
+            "avg": 10.875189054712637,
+            "min": 7.03187,
+            "med": 9.236279,
+            "max": 33.943784,
+            "p(90)": 16.8186386,
+            "p(95)": 19.693017499999996
+        },
+        "iterations": {
+            "count": 725,
+            "rate": 2.668605597892271
+        },
+        "http_req_waiting": {
+            "avg": 10.812116840992646,
+            "min": 7.005817,
+            "med": 9.166757,
+            "max": 42.063837,
+            "p(90)": 16.745447499999997,
+            "p(95)": 19.62449875
+        },
+        "data_received": {
+            "count": 31460236,
+            "rate": 115799.94744911994
+        },
+        "vus": {
+            "max": 10,
+            "value": 1,
+            "min": 1
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 2176,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "checks": {
+            "passes": 2175,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_tls_handshaking": {
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0
+        },
+        "http_req_sending": {
+            "avg": 0.013122032169117653,
+            "min": 0.00505,
+            "med": 0.01269,
+            "max": 0.10502,
+            "p(90)": 0.0162535,
+            "p(95)": 0.018154999999999998
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 19.7076125,
+            "avg": 10.889621960937493,
+            "min": 7.03187,
+            "med": 9.2363415,
+            "max": 42.281193,
+            "p(90)": 16.824682
+        },
+        "errors": {
+            "passes": 0,
+            "fails": 725,
+            "value": 0
+        },
+        "server_status_duration": {
+            "med": 8.83824,
+            "max": 25.661979,
+            "p(90)": 17.027086,
+            "p(95)": 18.764953199999983,
+            "avg": 10.101547016551718,
+            "min": 7.189542
+        },
+        "http_req_receiving": {
+            "max": 0.201442,
+            "p(90)": 0.0963855,
+            "p(95)": 0.11044425,
+            "avg": 0.0643830877757352,
+            "min": 0.016451,
+            "med": 0.0576735
+        },
+        "group_duration": {
+            "min": 7.114012,
+            "med": 9.400161,
+            "max": 34.480575,
+            "p(90)": 17.0096648,
+            "p(95)": 20.10907629999998,
+            "avg": 11.1721623356322
+        },
+        "vus_max": {
+            "value": 10,
+            "min": 10,
+            "max": 10
+        },
+        "http_req_blocked": {
+            "avg": 0.004984215533088249,
+            "min": 0.001493,
+            "med": 0.0037835,
+            "max": 0.233629,
+            "p(90)": 0.004938,
+            "p(95)": 0.0055865
+        },
+        "list_servers_duration": {
+            "avg": 12.676719314482757,
+            "min": 9.750402,
+            "med": 11.599869,
+            "max": 33.943784,
+            "p(90)": 18.788190000000004,
+            "p(95)": 20.583066
+        },
+        "iteration_duration": {
+            "avg": 3143.960748304829,
+            "min": 1824.138791,
+            "med": 3127.850262,
+            "max": 4399.437909,
+            "p(90)": 3989.7533008,
+            "p(95)": 4111.3147122
+        },
+        "http_req_duration": {
+            "avg": 10.889621960937493,
+            "min": 7.03187,
+            "med": 9.2363415,
+            "max": 42.281193,
+            "p(90)": 16.824682,
+            "p(95)": 19.7076125,
+            "thresholds": {
+                "p(95)<500": false,
+                "p(99)<1500": false
+            }
+        }
+    },
+    "setup_data": {
+        "session": {
+            "type": "api-key",
+            "baseUrl": "http://10.10.10.10",
+            "token": "1|n38ZgfkmkIzFvmkRmXloNsvQBT8JnRgIlHTTBtnz"
+        },
+        "startedAt": "2026-04-19T02:59:50.674Z"
+    },
+    "root_group": {
+        "checks": {},
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+                "list_servers": {
+                    "id": "6e5ad34623e0e5236a88e9481f837f73",
+                    "groups": {},
+                    "checks": {
+                            "list 200": {
+                                "name": "list 200",
+                                "path": "::list_servers::list 200",
+                                "id": "926e53c4ff8b967d2519d920d4145384",
+                                "passes": 725,
+                                "fails": 0
+                            }
+                        },
+                    "name": "list_servers",
+                    "path": "::list_servers"
+                },
+                "server_details": {
+                    "name": "server_details",
+                    "path": "::server_details",
+                    "id": "f5a046d69381ea80d987a490c523d97a",
+                    "groups": {},
+                    "checks": {
+                            "details 200": {
+                                "name": "details 200",
+                                "path": "::server_details::details 200",
+                                "id": "7023b60221abed16f41bb665136c3035",
+                                "passes": 725,
+                                "fails": 0
+                            }
+                        }
+                },
+                "server_status": {
+                    "name": "server_status",
+                    "path": "::server_status",
+                    "id": "91f7719b26080f7aa5dc17f7b426c568",
+                    "groups": {},
+                    "checks": {
+                            "status 200": {
+                                "name": "status 200",
+                                "path": "::server_status::status 200",
+                                "id": "5732b39cb76e7a32f0a91be035e4f4fd",
+                                "passes": 725,
+                                "fails": 0
+                            }
+                        }
+                }
+            }
+    }
+}
