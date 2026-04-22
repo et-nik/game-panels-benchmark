@@ -123,13 +123,13 @@ sysctl --system
 
 Each panel is installed in its own VM following the official documentation:
 
-| Panel | Installation |
-|---|---|
-| GameAP 3.x | `gameapctl --version=3` |
-| GameAP 4.x | `gameapctl --version=4 --database=postgres` |
-| Pterodactyl | [pterodactyl.io/docs](https://pterodactyl.io) |
-| Pelican | [pelican.dev/docs](https://pelican.dev) |
-| PufferPanel | [docs.pufferpanel.com](https://docs.pufferpanel.com) |
+| Panel | Installation                                              |
+|---|-----------------------------------------------------------|
+| GameAP 3.x | `gameapctl panel install --version=3`                     |
+| GameAP 4.x | `gameapctl panel install --version=4 --database=postgres` |
+| Pterodactyl | [pterodactyl.io/docs](https://pterodactyl.io)             |
+| Pelican | [pelican.dev/docs](https://pelican.dev)                   |
+| PufferPanel | [docs.pufferpanel.com](https://docs.pufferpanel.com)      |
 
 ### 3. PHP panel tuning
 
